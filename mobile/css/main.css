@@ -1,0 +1,92 @@
+
+header
+{
+    height: 120px;
+    background: rgb(237,227,43);
+    font-family: "Comic Sans MS";
+    border-bottom-style: solid;
+}
+body main
+{
+    font-family: "Comic Sans MS";
+    color: green;
+    font-size: 125%;
+}
+
+footer img
+{
+    height: 300px;
+}
+
+.headlineImg
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+}
+h1
+{
+    display: inline;
+}
+
+main h1
+{
+   font-size: 75px; 
+}
+
+main h3
+{
+    font-size: 50px;
+}
+
+nav
+{
+    margin-top: 20px;
+    float: left;
+}
+.curPage
+{
+    padding-left: 40px;
+    padding-top: 32px;
+    float: left;
+    color: green;
+     font-family: "lucida handwriting";
+    font-size: 25px;
+}
+
+.bigImg img
+{
+    height: 100%;
+    width: 100%;
+}
+
+p
+{
+    font-size:25px;
+}
+
+   
+iframe
+{
+    height: 600px;
+    width: 80%;
+}
+
+.curPageIcon
+{
+    margin-top: 30px;
+    margin-right: 50px;
+    float: right;
+}
+
+.menuIcon
+{
+    float: right;
+}
+
+.socialMedia img
+{
+    width: 100px;
+    margin-top: -30px;
+    margin-bottom: -25px;
+}

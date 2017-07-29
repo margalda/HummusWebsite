@@ -1,0 +1,3 @@
+Vertical Tabs in the desktop food page - https://www.w3schools.com/howto/howto_js_vertical_tabs.asp
+Accordion dropdown (submenu) - https://codepen.io/fainder/pen/AydHJ
+Hamburger Menu - https://codepen.io/erikterwan/pen/EVzeRP

@@ -1,0 +1,44 @@
+.descript 
+{
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+   
+}
+.descript p
+{
+    padding: 10px;
+    width: 800px;
+    height: 316px;
+}
+
+.FoodImg {
+    float : left;
+    margin-left: 30px;
+}
+
+.FoodImg img {
+    width:270px;
+    height: 500px;
+    margin-top: 20px;
+}
+.clearfix2{
+    clear:both
+}
+
+.restName
+{
+    display: inline;
+    margin-right: 20px;
+}
+h6
+{
+    display: inline;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+#rateImg
+{
+    margin-bottom: -7px;
+}

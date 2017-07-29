@@ -1,0 +1,139 @@
+header
+{
+    height: 50px;
+    background: #ff000;
+}
+
+header nav ul
+{
+    
+    list-style: none;
+    line-height: 50px;
+    font-weight: bold; 
+}
+header nav ul li
+{
+    display: flex;
+    position:relative;
+    left: 320px;
+    float: left;
+    padding: 0 30px;
+    color: green; 
+}
+
+#menu li a
+{
+    width: auto;
+    font-family: "lucida handwriting";
+    color:green;
+}
+.menuLI{
+    border-right-style: groove;
+}
+#menu li a:hover
+{
+    opacity: 0.5;   
+}
+#myImg 
+{
+    position: relative;
+    left: 50px;
+    height: 50px;
+    width: 50px
+}
+#socialMedia ul li
+{
+    left: 110px;
+    padding-left: 10px;
+    width: 12px;
+}
+
+#socialMedia li img 
+{
+    height: 40px;
+    width: 40px;
+}
+
+body main
+{
+    font-family: "Comic Sans MS";
+    color: green;
+    font-size: 125%;
+}
+body main h1 img
+{
+    height: 45px;
+    margin-bottom: -5px;
+}
+body main h1
+{
+    font-size: 225%;
+     margin-top: -30px;
+}
+footer img
+{
+    height: 100px;
+}
+
+.InActive{
+    text-decoration: none;
+}
+.active
+{
+    text-decoration: underline;
+}
+
+/*About Page */
+
+.para 
+{
+    float: left;
+    margin-left: 30px;
+   
+}
+.para p
+{
+     padding: 10px;
+    width: 650px;
+    height: 316px;
+    text-align: left;
+}
+
+.bigImg {
+    float : left;
+    margin-left: 30px;
+}
+
+.bigImg img {
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+}
+.clearfix{
+    clear:both
+}
+
+.headlineImg
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 60px;
+}
+h1
+{
+    display: inline;
+}
+h3
+{
+    margin-bottom: -15px;
+}
+
+iframe
+{
+    margin-top: 20px;   
+}
+main
+{
+    margin-top: 30px;
+}
+   

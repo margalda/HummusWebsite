@@ -1,0 +1,89 @@
+`<!doctype html>
+<html ng-app="exampleApp">
+<head>
+    <meta charset="utf-8">
+    <title>Hummus Israel</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="/shared/images/Hummus_and_Pita_Puffle_Food.png">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/food.css" rel="stylesheet">
+    <link href="app/list.template.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/scroll-to-top.css">
+    <script src="/js/scroll-to-top.js"></script>
+    <script src="/shared/js/angular.min.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/north-list/north-list.module.js"></script>
+    <script src="app/north-list/north-list.component.js"></script>
+    <script src="app/center-list/center-list.module.js"></script>
+    <script src="app/center-list/center-list.component.js"></script>
+    <script src="app/south-list/south-list.module.js"></script>
+    <script src="app/south-list/south-list.component.js"></script>
+    <script src="app/ta-list/ta-list.module.js"></script>
+    <script src="app/ta-list/ta-list.component.js"></script>
+    <script src="app/rec-list/rec-list.module.js"></script>
+    <script src="app/rec-list/rec-list.component.js"></script>
+</head>
+
+<body bgcolor="#F5F7B2">
+    <header>
+    <nav>
+        <ul id="menu">
+            <li><img id="myImg" src="../shared/images/Hummus_and_Pita_Puffle_Food.png" alt="Hummus"></li>
+            <li class="menuLI"><a class="InActive" href="/index.html">Home</a></li>
+            <li class="menuLI"><a class="InActive" href="/about.html">About</a></li>
+            <li class="menuLI"><a class="active" href="/food.html">Food</a></li>
+            <li><a class="InActive" href="/contact.html">Contact</a></li>
+        <li id="socialMedia">
+            <ul>
+            <li><a href="https://facebook.com">
+                <img  src="/images/facebookIcon.png" alt="Facebook">
+                </a></li>
+            <li><a href="https://www.plus.google.com">
+                <img  src="images/Google_plus.svg.png" alt="Google+"></a></li>
+            <li><a href="https://www.instagram.com/">
+                <img  src="images/instagram-new-2016-logo.png" alt="Instagram">
+                </a></li>
+            <li><a href="https://www.youtube.com/">
+                <img  src="images/YouTube-icon-full_color.png" alt="Youtube"></a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>
+    </header>
+    <button onclick="topFunction()" id="scrollToTopButton" title="Go to top">^</button>
+    <main>
+    <center><h2>Food</h2></center>
+    <div class="container">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'North')" id="defaultOpen">North</button>
+            <button class="tablinks" onclick="openCity(event, 'Center')">Center</button>
+            <button class="tablinks" onclick="openCity(event, 'South')">South</button>
+            <button class="tablinks" onclick="openCity(event, 'Tel-Aviv')">Tel-Aviv</button>
+        </div>
+
+        <div id="North" class="tabcontent">
+          
+          <north-list></north-list>
+        </div>
+
+        <div id="Center" class="tabcontent">
+          
+            <center-list></center-list>
+        </div>
+
+        <div id="South" class="tabcontent">
+          
+            <south-list></south-list>
+        </div>
+        
+        <div id="Tel-Aviv" class="tabcontent">
+          
+            <ta-list></ta-list>
+        </div>
+    </div>
+    
+    <script src="js/food.js"></script>
+    </main>
+</body>
+</html>

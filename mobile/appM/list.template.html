@@ -1,0 +1,13 @@
+<ul style="list-style-type: none;">
+    <li  ng-repeat="item in $ctrl.list">
+        <div class="descript">
+        <div><h2 class="restName">{{item.name}}</h2><img id="rateImg" ng-src="{{item.rate}}" alt="rate" width="300px">
+                <h6>({{item.voters}} voters)</h6></div>
+        <p>{{item.snippet}}</p>
+        <br>
+        </div>
+       <div class="FoodImg"><img ng-src="{{item.imageUrl}}" alt="{{item.name}}" width="680px" height="800px"/></div>
+        <div class="clearfix2"></div>
+        <br>
+    </li>
+</ul>
